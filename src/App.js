@@ -17,7 +17,7 @@ function App() {
     }
   ]);
   return (
-    <RouterProvider router={router}>
+    <RouterProvider basename="/Yashraj-Savi-Valentines" router={router}>
     </RouterProvider>
   );
 }
