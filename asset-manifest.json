@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/Yashraj-Savi-Valentines/static/css/main.ddabb080.css",
-    "main.js": "/Yashraj-Savi-Valentines/static/js/main.856eb77a.js",
+    "main.js": "/Yashraj-Savi-Valentines/static/js/main.7236f93a.js",
     "static/js/488.465961c6.chunk.js": "/Yashraj-Savi-Valentines/static/js/488.465961c6.chunk.js",
-    "static/media/logo.svg": "/Yashraj-Savi-Valentines/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Yashraj-Savi-Valentines/index.html",
     "main.ddabb080.css.map": "/Yashraj-Savi-Valentines/static/css/main.ddabb080.css.map",
-    "main.856eb77a.js.map": "/Yashraj-Savi-Valentines/static/js/main.856eb77a.js.map",
+    "main.7236f93a.js.map": "/Yashraj-Savi-Valentines/static/js/main.7236f93a.js.map",
     "488.465961c6.chunk.js.map": "/Yashraj-Savi-Valentines/static/js/488.465961c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddabb080.css",
-    "static/js/main.856eb77a.js"
+    "static/js/main.7236f93a.js"
   ]
 }
