@@ -14,8 +14,10 @@ function App() {
     {
       path: '/WillYouBeMyValentine',
       element: <Wybmv/>
-    }
-  ]);
+    },
+  ], {
+    basename: "/Yashraj-Savi-Valentines"  
+  });
   return (
     <RouterProvider basename="/Yashraj-Savi-Valentines" router={router}>
     </RouterProvider>
