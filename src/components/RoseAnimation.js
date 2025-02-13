@@ -88,7 +88,7 @@ const RoseAnimation = () => {
         <div className={`photo top-left-photo ${clicked && clickCount >= 1 ? "show-photo" : ""}`}>
           <img
             className="rose-top-left"
-            src="/Yashraj-Savi-Valentines/photo1.jpeg"
+            src="/Yashraj-Savi-Valentines/pictures/photo1.jpeg"
             style={{ width: "15vw", height: "35vh" }}
             alt="Photo 1"
           />
@@ -97,7 +97,7 @@ const RoseAnimation = () => {
 
         <div className={`photo top-right-photo ${clicked && clickCount >= 2 ? "show-photo" : ""}`}>
           <img
-            src="/Yashraj-Savi-Valentines/photo3.jpeg"
+            src="/Yashraj-Savi-Valentines/pictures/photo3.jpeg"
             style={{ width: "15vw", height: "35vh" }}
             alt="Photo 3"
           />
@@ -107,7 +107,7 @@ const RoseAnimation = () => {
         <div className={`photo bottom-left-photo ${clicked && clickCount >= 3 ? "show-photo" : ""}`}>
           <figure className="figure-container">
             <img
-              src="/Yashraj-Savi-Valentines/photo2.jpeg"
+              src="/Yashraj-Savi-Valentines/pictures/photo2.jpeg"
               style={{ width: "15vw", height: "35vh" }}
               alt="Photo 2"
             />
@@ -117,7 +117,7 @@ const RoseAnimation = () => {
 
         <div className={`photo bottom-right-photo ${clicked && clickCount >= 4 ? "show-photo" : ""}`}>
           <img
-            src="/Yashraj-Savi-Valentines/photo4.jpeg"
+            src="/Yashraj-Savi-Valentines/pictures/photo4.jpeg"
             style={{ width: "15vw", height: "35vh" }}
             alt="Photo 4"
           />
