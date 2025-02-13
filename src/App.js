@@ -1,26 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import { BrowserRouter, createBrowserRouter,RouterProvider } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Wybmv from './pages/Wybmv';
 
 function App() {
-
-  const router = createBrowserRouter([
-    {
-      path: '/Ballu-The-Princess',
-      element: <Home/>,
-    },
-    {
-      path: '/WillYouBeMyValentine',
-      element: <Wybmv/>
-    },
-  ], {
-    basename: "/Yashraj-Savi-Valentines"  
-  });
   return (
-    <RouterProvider basename="/Yashraj-Savi-Valentines" router={router}>
-    </RouterProvider>
+    <HashRouter basename="/Yashraj-Savi-Valentines">
+      <Routes>
+        <Route path="/Ballu-The-Princess" element={<Home />} />
+        <Route path="/WillYouBeMyValentine" element={<Wybmv />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
