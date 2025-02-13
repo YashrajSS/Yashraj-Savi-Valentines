@@ -2,6 +2,7 @@
   "name": "yashraj-savi",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://YashrajSS.github.io/Yashraj-Savi-Valentines",
   "dependencies": {
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.4.3",
@@ -12,8 +13,8 @@
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1",
-    "web-vitals": "^4.2.4",
-    "homepage": "https://YashrajSS.github.io/Yashraj-Savi-Valentines"
+    "web-vitals": "^4.2.4"
+    
 
   },
   "scripts": {
