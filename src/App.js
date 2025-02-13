@@ -6,7 +6,7 @@ import Wybmv from './pages/Wybmv';
 
 function App() {
   return (
-    <HashRouter basename="/Yashraj-Savi-Valentines">
+    <HashRouter>
       <Routes>
         <Route path="/Ballu-The-Princess" element={<Home />} />
         <Route path="/WillYouBeMyValentine" element={<Wybmv />} />
